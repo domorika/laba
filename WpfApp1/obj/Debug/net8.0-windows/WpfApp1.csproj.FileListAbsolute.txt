@@ -84,3 +84,15 @@ S:\деркунчик\WpfApp1\obj\Debug\net8.0-windows\refint\WpfApp1.dll
 S:\деркунчик\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.pdb
 S:\деркунчик\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.genruntimeconfig.cache
 S:\деркунчик\WpfApp1\obj\Debug\net8.0-windows\ref\WpfApp1.dll
+C:\Users\13\Desktop\laba\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\13\Desktop\laba\WpfApp1\obj\Debug\net8.0-windows\DictionaryApp.baml
+C:\Users\13\Desktop\laba\WpfApp1\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\13\Desktop\laba\WpfApp1\obj\Debug\net8.0-windows\View\WindowEmployee.g.cs
+C:\Users\13\Desktop\laba\WpfApp1\obj\Debug\net8.0-windows\WindowNewEmployee.g.cs
+C:\Users\13\Desktop\laba\WpfApp1\obj\Debug\net8.0-windows\WindowNewRole.g.cs
+C:\Users\13\Desktop\laba\WpfApp1\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\13\Desktop\laba\WpfApp1\obj\Debug\net8.0-windows\WpfApp1_MarkupCompile.cache
+C:\Users\13\Desktop\laba\WpfApp1\obj\Debug\net8.0-windows\WpfApp1_MarkupCompile.lref
+C:\Users\13\Desktop\laba\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.dll
+C:\Users\13\Desktop\laba\WpfApp1\obj\Debug\net8.0-windows\refint\WpfApp1.dll
+C:\Users\13\Desktop\laba\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.pdb

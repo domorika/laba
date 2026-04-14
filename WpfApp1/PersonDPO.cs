@@ -1,36 +1,78 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
+using WpfApp1.Model;
+using WpfApp1.ViewModel;
 
 namespace WpfApp1
 {
-    internal class PersonDPO
+    public class PersonDPO : INotifyPropertyChanged
     {
         public int Id { get; set; }
-        public string Role { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public DateTime Birthday { get; set; }
+
+        private string _role;
+        public string Role
+        {
+            get => _role;
+            set
+            {
+                _role = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private string _firstName;
+        public string FirstName
+        {
+            get => _firstName;
+            set
+            {
+                _firstName = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private string _lastName;
+        public string LastName
+        {
+            get => _lastName;
+            set
+            {
+                _lastName = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private DateTime _birthday;
+        public DateTime Birthday
+        {
+            get => _birthday;
+            set
+            {
+                _birthday = value;
+                OnPropertyChanged();
+            }
+        }
+
         public PersonDPO() { }
+
         public PersonDPO(int id, string role, string firstName, string lastName, DateTime birthday)
         {
-            this.Id = id;
-            this.Role = role;
-            this.FirstName = firstName;
-            this.LastName = lastName;
-            this.Birthday = birthday;
+            Id = id;
+            Role = role;
+            FirstName = firstName;
+            LastName = lastName;
+            Birthday = birthday;
         }
 
         public PersonDPO ShallowCopy()
         {
-            return (PersonDPO)this.MemberwiseClone();
+            return (PersonDPO)MemberwiseClone();
         }
 
-        public PersonDPO CopyFromPerson(Model.Person person)
+        public PersonDPO CopyFromPerson(Person person)
         {
-            ViewModel.RoleViewModel vmRole = new ViewModel.RoleViewModel();
+            RoleViewModel vmRole = new RoleViewModel();
             string role = string.Empty;
             foreach (var r in vmRole.ListRoles)
             {
@@ -42,13 +84,19 @@ namespace WpfApp1
             }
             if (role != string.Empty)
             {
-                this.Id = person.Id;
-                this.Role = role;
-                this.FirstName = person.FirstName;
-                this.LastName = person.LastName;
-                this.Birthday = person.Birthday;
+                Id = person.Id;
+                Role = role;
+                FirstName = person.FirstName;
+                LastName = person.LastName;
+                Birthday = person.Birthday;
             }
             return this;
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = "")
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }
