@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|c:\\users\\13\\desktop\\laba\\wpfapp1\\windownewemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|solutionrelative:windownewemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|c:\\users\\13\\desktop\\laba\\wpfapp1\\windownewrole.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|solutionrelative:windownewrole.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|c:\\users\\13\\desktop\\laba\\wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|c:\\users\\13\\desktop\\laba\\wpfapp1\\dictionaryapp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|solutionrelative:dictionaryapp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|c:\\users\\13\\desktop\\laba\\wpfapp1\\wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|solutionrelative:wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|c:\\users\\13\\desktop\\laba\\wpfapp1\\view\\windowrole.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|solutionrelative:view\\windowrole.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|c:\\users\\13\\desktop\\laba\\wpfapp1\\view\\windowemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,12 +19,28 @@
       "RelativeMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|solutionrelative:view\\windowrole.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|c:\\users\\13\\desktop\\laba\\wpfapp1\\view\\windowrole.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|solutionrelative:view\\windowrole.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|c:\\users\\13\\desktop\\laba\\wpfapp1\\windownewrole.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|solutionrelative:windownewrole.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|c:\\users\\13\\desktop\\laba\\wpfapp1\\viewmodel\\personviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|solutionrelative:viewmodel\\personviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|c:\\users\\13\\desktop\\laba\\wpfapp1\\windownewemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|solutionrelative:windownewemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|c:\\users\\13\\desktop\\laba\\wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|c:\\users\\13\\desktop\\laba\\wpfapp1\\dictionaryapp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|solutionrelative:dictionaryapp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|c:\\users\\13\\desktop\\laba\\wpfapp1\\wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|solutionrelative:wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA8DFAE9-0C47-4B44-94D7-52D8FFFF4802}|WpfApp1.csproj|c:\\users\\13\\desktop\\laba\\wpfapp1\\persondpo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -105,7 +105,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -113,19 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DictionaryApp.xaml",
-              "DocumentMoniker": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\DictionaryApp.xaml",
-              "RelativeDocumentMoniker": "DictionaryApp.xaml",
-              "ToolTip": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\DictionaryApp.xaml",
-              "RelativeToolTip": "DictionaryApp.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-14T18:20:50.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "WindowEmployee.xaml",
               "DocumentMoniker": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\View\\WindowEmployee.xaml",
               "RelativeDocumentMoniker": "View\\WindowEmployee.xaml",
@@ -137,20 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WpfApp1.csproj",
-              "DocumentMoniker": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\WpfApp1.csproj",
-              "RelativeDocumentMoniker": "WpfApp1.csproj",
-              "ToolTip": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\WpfApp1.csproj",
-              "RelativeToolTip": "WpfApp1.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-08T11:02:54.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "WindowRole.xaml",
               "DocumentMoniker": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\View\\WindowRole.xaml",
               "RelativeDocumentMoniker": "View\\WindowRole.xaml",
@@ -162,19 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-10T11:32:47.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "WindowNewRole.xaml",
               "DocumentMoniker": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\WindowNewRole.xaml",
               "RelativeDocumentMoniker": "WindowNewRole.xaml",
@@ -186,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "WindowNewEmployee.xaml",
               "DocumentMoniker": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\WindowNewEmployee.xaml",
               "RelativeDocumentMoniker": "WindowNewEmployee.xaml",
@@ -198,16 +161,82 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "PersonViewModel.cs",
               "DocumentMoniker": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\ViewModel\\PersonViewModel.cs",
               "RelativeDocumentMoniker": "ViewModel\\PersonViewModel.cs",
               "ToolTip": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\ViewModel\\PersonViewModel.cs",
               "RelativeToolTip": "ViewModel\\PersonViewModel.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAiwKsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAD4vyEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-07T10:47:26.313Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WindowRole.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\View\\WindowRole.xaml.cs",
+              "RelativeDocumentMoniker": "View\\WindowRole.xaml.cs",
+              "ToolTip": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\View\\WindowRole.xaml.cs",
+              "RelativeToolTip": "View\\WindowRole.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T11:59:05.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WindowEmployee.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\View\\WindowEmployee.xaml.cs",
+              "RelativeDocumentMoniker": "View\\WindowEmployee.xaml.cs",
+              "ToolTip": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\View\\WindowEmployee.xaml.cs",
+              "RelativeToolTip": "View\\WindowEmployee.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T11:23:25.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-10T11:32:47.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WpfApp1.csproj",
+              "DocumentMoniker": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\WpfApp1.csproj",
+              "RelativeDocumentMoniker": "WpfApp1.csproj",
+              "ToolTip": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\WpfApp1.csproj",
+              "RelativeToolTip": "WpfApp1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-08T11:02:54.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DictionaryApp.xaml",
+              "DocumentMoniker": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\DictionaryApp.xaml",
+              "RelativeDocumentMoniker": "DictionaryApp.xaml",
+              "ToolTip": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\DictionaryApp.xaml",
+              "RelativeToolTip": "DictionaryApp.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-14T18:20:50.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -219,8 +248,7 @@
               "RelativeToolTip": "PersonDPO.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAswEgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T11:12:34.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T11:12:34.401Z"
             },
             {
               "$type": "Document",
@@ -232,8 +260,7 @@
               "RelativeToolTip": "Model\\Role.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAmwBoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T10:50:42.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-07T10:50:42.319Z"
             },
             {
               "$type": "Document",
@@ -245,8 +272,7 @@
               "RelativeToolTip": "Helper\\FindRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T11:03:29.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T11:03:29.539Z"
             },
             {
               "$type": "Document",
@@ -258,34 +284,7 @@
               "RelativeToolTip": "Helper\\RelayCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T18:13:14.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WindowRole.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\View\\WindowRole.xaml.cs",
-              "RelativeDocumentMoniker": "View\\WindowRole.xaml.cs",
-              "ToolTip": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\View\\WindowRole.xaml.cs",
-              "RelativeToolTip": "View\\WindowRole.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T11:59:05.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WindowEmployee.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\View\\WindowEmployee.xaml.cs",
-              "RelativeDocumentMoniker": "View\\WindowEmployee.xaml.cs",
-              "ToolTip": "C:\\Users\\13\\Desktop\\laba\\WpfApp1\\View\\WindowEmployee.xaml.cs",
-              "RelativeToolTip": "View\\WindowEmployee.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T11:23:25.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-14T18:13:14.552Z"
             },
             {
               "$type": "Document",
@@ -297,8 +296,7 @@
               "RelativeToolTip": "ViewModel\\RoleViewModel.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAiwHMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T10:47:24.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-07T10:47:24.121Z"
             },
             {
               "$type": "Document",
@@ -323,10 +321,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T08:59:01.256Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",

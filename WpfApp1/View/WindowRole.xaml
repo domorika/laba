@@ -6,9 +6,6 @@
         xmlns:local="clr-namespace:WpfApp1.View"
         mc:Ignorable="d"
         Title="Должности" Height="450" Width="600">
-    <Window.Resources>
-        <vm:RoleViewModel x:Key="RoleViewModel"/>
-    </Window.Resources>
 
     <StackPanel Background="#FFD8D8D8">
         <StackPanel Orientation="Horizontal" Background="#FFE4E0E0">
