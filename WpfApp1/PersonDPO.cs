@@ -6,7 +6,7 @@ using WpfApp1.ViewModel;
 
 namespace WpfApp1
 {
-    public class PersonDPO : INotifyPropertyChanged
+    internal class PersonDPO : INotifyPropertyChanged
     {
         public int Id { get; set; }
 
@@ -84,11 +84,11 @@ namespace WpfApp1
             }
             if (role != string.Empty)
             {
-                Id = person.Id;
-                Role = role;
-                FirstName = person.FirstName;
-                LastName = person.LastName;
-                Birthday = person.Birthday;
+                this.Id = person.Id;
+                this.Role = role;
+                this.FirstName = person.FirstName;
+                this.LastName = person.LastName;
+                this.Birthday = person.Birthday;
             }
             return this;
         }

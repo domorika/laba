@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows;
+using System.Windows.Input;
 using WpfApp1.Helper;
 using WpfApp1.Model;
 
@@ -17,9 +18,7 @@ namespace WpfApp1.ViewModel
             {
                 _selectedRole = value;
                 OnPropertyChanged();
-                // Обновляем доступность команд при изменении выбора
-                (EditRole as RelayCommand)?.CanExecuteChanged?.Invoke(null, EventArgs.Empty);
-                (DeleteRole as RelayCommand)?.CanExecuteChanged?.Invoke(null, EventArgs.Empty);
+                CommandManager.InvalidateRequerySuggested();
             }
         }
 

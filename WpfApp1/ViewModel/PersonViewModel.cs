@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Windows;
+using System.Windows.Input;
 using WpfApp1.Helper;
 using WpfApp1.Model;
 
@@ -12,21 +13,29 @@ namespace WpfApp1.ViewModel
     public class PersonViewModel : INotifyPropertyChanged
     {
         private PersonDPO _selectedPersonDpo;
-        public PersonDPO SelectedPersonDpo
+        internal PersonDPO SelectedPersonDpo
         {
             get => _selectedPersonDpo;
             set
             {
                 _selectedPersonDpo = value;
                 OnPropertyChanged();
-                // Обновляем доступность команд
-                (EditPerson as RelayCommand)?.CanExecuteChanged?.Invoke(null, EventArgs.Empty);
-                (DeletePerson as RelayCommand)?.CanExecuteChanged?.Invoke(null, EventArgs.Empty);
+                CommandManager.InvalidateRequerySuggested();
             }
         }
 
-        public ObservableCollection<Person> ListPerson { get; set; } = new ObservableCollection<Person>();
-        public ObservableCollection<PersonDPO> ListPersonDpo { get; set; } = new ObservableCollection<PersonDPO>();
+        internal ObservableCollection<Person> ListPerson { get; set; } = new ObservableCollection<Person>();
+
+        private ObservableCollection<PersonDPO> _listPersonDpo = new ObservableCollection<PersonDPO>();
+        internal ObservableCollection<PersonDPO> ListPersonDpo
+        {
+            get => _listPersonDpo;
+            set
+            {
+                _listPersonDpo = value;
+                OnPropertyChanged();
+            }
+        }
 
         // Список должностей для ComboBox
         private RoleViewModel _roleVM;
@@ -89,15 +98,31 @@ namespace WpfApp1.ViewModel
 
             if (wnPerson.ShowDialog() == true)
             {
+                // Получаем выбранную должность
                 Role r = (Role)wnPerson.CbRole.SelectedItem;
                 if (r != null)
+                {
                     per.Role = r.NameRole;
+                }
 
+                // Получаем данные из полей
+                per.FirstName = wnPerson.TbFirstName.Text;
+                per.LastName = wnPerson.TbLastName.Text;
+                if (wnPerson.ClBirthday.SelectedDate.HasValue)
+                {
+                    per.Birthday = wnPerson.ClBirthday.SelectedDate.Value;
+                }
+
+                // Добавляем в коллекцию отображения
                 ListPersonDpo.Add(per);
 
+                // Добавляем в коллекцию Person
                 Person p = new Person();
                 p.CopyFromPersonDPO(per);
                 ListPerson.Add(p);
+
+                // Обновляем привязку
+                OnPropertyChanged(nameof(ListPersonDpo));
             }
         }));
         #endregion
@@ -106,6 +131,13 @@ namespace WpfApp1.ViewModel
         private RelayCommand _editPerson;
         public RelayCommand EditPerson => _editPerson ?? (_editPerson = new RelayCommand(obj =>
         {
+            if (SelectedPersonDpo == null)
+            {
+                MessageBox.Show("Выберите сотрудника для редактирования", "Предупреждение",
+                    MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
             var wnPerson = new WindowNewEmployee
             {
                 Title = "Редактирование данных сотрудника"
@@ -121,23 +153,37 @@ namespace WpfApp1.ViewModel
             if (selectedRole != null)
                 wnPerson.CbRole.SelectedItem = selectedRole;
 
+            // Устанавливаем дату рождения
+            wnPerson.ClBirthday.SelectedDate = tempPerson.Birthday;
+
             if (wnPerson.ShowDialog() == true)
             {
+                // Обновляем данные
                 Role r = (Role)wnPerson.CbRole.SelectedItem;
                 if (r != null)
                     personDpo.Role = r.NameRole;
                 personDpo.FirstName = tempPerson.FirstName;
                 personDpo.LastName = tempPerson.LastName;
-                personDpo.Birthday = tempPerson.Birthday;
+                if (wnPerson.ClBirthday.SelectedDate.HasValue)
+                {
+                    personDpo.Birthday = wnPerson.ClBirthday.SelectedDate.Value;
+                }
 
                 // Обновляем Person
                 Person p = ListPerson.FirstOrDefault(pers => pers.Id == personDpo.Id);
                 if (p != null)
+                {
                     p.CopyFromPersonDPO(personDpo);
+                }
 
                 // Обновляем отображение
                 var index = ListPersonDpo.IndexOf(personDpo);
-                ListPersonDpo[index] = personDpo;
+                if (index >= 0)
+                {
+                    ListPersonDpo[index] = personDpo;
+                }
+
+                OnPropertyChanged(nameof(ListPersonDpo));
             }
         }, obj => SelectedPersonDpo != null && ListPersonDpo.Count > 0));
         #endregion
@@ -146,6 +192,13 @@ namespace WpfApp1.ViewModel
         private RelayCommand _deletePerson;
         public RelayCommand DeletePerson => _deletePerson ?? (_deletePerson = new RelayCommand(obj =>
         {
+            if (SelectedPersonDpo == null)
+            {
+                MessageBox.Show("Выберите сотрудника для удаления", "Предупреждение",
+                    MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
             PersonDPO person = SelectedPersonDpo;
             MessageBoxResult result = MessageBox.Show(
                 $"Удалить данные по сотруднику: \n{person.LastName} {person.FirstName}",
@@ -155,10 +208,15 @@ namespace WpfApp1.ViewModel
 
             if (result == MessageBoxResult.OK)
             {
+                // Удаляем из коллекции отображения
                 ListPersonDpo.Remove(person);
+
+                // Удаляем из коллекции Person
                 Person per = ListPerson.FirstOrDefault(p => p.Id == person.Id);
                 if (per != null)
                     ListPerson.Remove(per);
+
+                OnPropertyChanged(nameof(ListPersonDpo));
             }
         }, obj => SelectedPersonDpo != null && ListPersonDpo.Count > 0));
         #endregion
@@ -168,5 +226,7 @@ namespace WpfApp1.ViewModel
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+
     }
+
 }

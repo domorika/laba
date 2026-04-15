@@ -21,7 +21,7 @@
                     Command="{Binding DeletePerson}"/>
         </StackPanel>
 
-        <ListView x:Name="lvEmployee" Grid.Row="1" 
+        <ListView Grid.Row="1" 
                   ItemsSource="{Binding ListPersonDpo}" 
                   SelectedItem="{Binding SelectedPersonDpo}">
             <ListView.View>
