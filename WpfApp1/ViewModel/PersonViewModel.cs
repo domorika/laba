@@ -161,7 +161,7 @@ namespace WpfApp1.ViewModel
                         Person p = listPerson.Find(new Predicate<Person>(finder.PersonPredicate));
                         p = p.CopyFromPersonDPO(personDPO);
                     }
-                }, (obj => SelectedPersonDPO != null && ListPersonDPO.Count > 0));
+                }, (obj => SelectedPersonDPO != null && ListPersonDPO.Count > 0)));
             }
         }
         #endregion
@@ -172,23 +172,22 @@ namespace WpfApp1.ViewModel
         {
             get
             {
-                return deletePerson ?? (deletePerson = new RelayCommand (obj =>
+                return deletePerson ?? (deletePerson = new RelayCommand(obj =>
                 {
                     PersonDPO person = SelectedPersonDPO;
                     MessageBoxResult result = MessageBox.Show("Удалить данные по сотруднику: \n" + person.LastName + " " + person.FirstName,
                         "Предупреждение", MessageBoxButton.OKCancel, MessageBoxImage.Warning);
                     if (result == MessageBoxResult.OK)
                     {
-
+                        ListPersonDPO.Remove(person);
+                        Person per = new Person();
+                        per = per.CopyFromPersonDPO(person);
+                        ListPerson.Remove(per);
                     }
-                }))
+                }, (obj) => SelectedPersonDPO != null && ListPersonDPO.Count > 0));
             }
         }
-        
-
-
-
-
+ #endregion
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = "")

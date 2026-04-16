@@ -6,13 +6,10 @@ namespace WpfApp1.View
 {
     public partial class WindowEmployee : Window
     {
-        private PersonViewModel _viewModel;
-
         public WindowEmployee()
         {
             InitializeComponent();
-            _viewModel = new PersonViewModel();
-            DataContext = _viewModel;
+            DataContext = new PersonViewModel();
         } 
     }
 }

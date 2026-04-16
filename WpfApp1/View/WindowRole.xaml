@@ -9,11 +9,11 @@
 
     <StackPanel Background="#FFD8D8D8">
         <StackPanel Orientation="Horizontal" Background="#FFE4E0E0">
-            <Button Content="Добавить" Margin="10,10,5,10" Height="25"
+            <Button  Style="{StaticResource ButtonMenu}" Content="Добавить" Margin="10,10,5,10" Height="25"
                     Command="{Binding AddRole}"/>
-            <Button Content="Редактировать" Margin="10,10,5,10" Height="25"
+            <Button Style="{StaticResource ButtonMenu}" Content="Редактировать" Margin="10,10,5,10" Height="25"
                     Command="{Binding EditRole}"/>
-            <Button Content="Удалить" Margin="10,10,5,10" Height="25"
+            <Button Style="{StaticResource ButtonMenu}" Content="Удалить" Margin="10,10,5,10" Height="25"
                     Command="{Binding DeleteRole}"/>
         </StackPanel>
 

@@ -5,7 +5,7 @@ using WpfApp1.ViewModel;
 
 namespace WpfApp1.Model
 {
-    class Person
+    public class Person
     {
         public int Id { get; set; }
         public int RoleId { get; set; }
