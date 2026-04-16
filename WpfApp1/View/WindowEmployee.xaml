@@ -21,9 +21,9 @@
                     Command="{Binding DeletePerson}"/>
         </StackPanel>
 
-        <ListView Grid.Row="1" 
-                  ItemsSource="{Binding ListPersonDpo}" 
-                  SelectedItem="{Binding SelectedPersonDpo}">
+        <ListView x:Name="EmployeesListView" Grid.Row="1" 
+          ItemsSource="{Binding ListPersonDpo, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+          SelectedItem="{Binding SelectedPersonDpo, Mode=TwoWay}">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Код" Width="50" DisplayMemberBinding="{Binding Id}"/>
